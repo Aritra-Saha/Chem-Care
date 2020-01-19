@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Simp;
+    src: local('Simplifica Regular'), local('Simplifica');
+    /* Check how the font is written on the machine --> Right click on file -> Details -> Title */
+    src: url(fonts/SIMPLIFICA-Typeface.ttf) format('truetype');
+    font-weight: normal;
+}
+
+div {
+    width: 500px;
+}
+
+h2 {
+    font: 400 70px/1.5 Simp, sans-serif;
+    color: purple;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+li:last-child {
+    border: none;
+}
